@@ -21,9 +21,9 @@ def test_duyurular(browser):
     browser.maximize_window()
     # Kullanıcı adı ve şifre girme işlemi
     email_input = browser.find_element(By.XPATH, "//*[@id='__next']/div/main/div[2]/div/div/div[4]/form/div[1]/input")
-    email_input.send_keys("sevalcagdas4@gmail.com")
+    email_input.send_keys("@gmail.com")
     password_input = browser.find_element(By.XPATH,  "//*[@id='__next']/div/main/div[2]/div/div/div[4]/form/div[2]/input")
-    password_input.send_keys("Dolunay13")
+    password_input.send_keys("12345")
     login_button = browser.find_element(By.XPATH, "//*[@id='__next']/div/main/div[2]/div/div/div[4]/form/button[1]")
     login_button.click()
     # Platform açılmalıdır.
@@ -46,9 +46,9 @@ def test_duyuruFiltreleme(browser):
     browser.maximize_window()
     # Kullanıcı adı ve şifre girme işlemi
     email_input = browser.find_element(By.XPATH, "//*[@id='__next']/div/main/div[2]/div/div/div[4]/form/div[1]/input")
-    email_input.send_keys("sevalcagdas4@gmail.com")
+    email_input.send_keys("@gmail.com")
     password_input = browser.find_element(By.XPATH,"//*[@id='__next']/div/main/div[2]/div/div/div[4]/form/div[2]/input")
-    password_input.send_keys("Dolunay13")
+    password_input.send_keys("12345")
     login_button = browser.find_element(By.XPATH, "//*[@id='__next']/div/main/div[2]/div/div/div[4]/form/button[1]")
     login_button.click()
     # Platform açılmalıdır.
