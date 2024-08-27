@@ -23,9 +23,9 @@ def test_egitimlerim(browser):
         browser.maximize_window()
         # Kullanıcı adı ve şifre girme işlemi
         email_input = browser.find_element(By.XPATH,"//input[@name='email']")
-        email_input.send_keys("sevalcagdas4@gmail.com")
+        email_input.send_keys("@gmail.com")
         password_input = browser.find_element(By.XPATH,  "//input[@name='password']")
-        password_input.send_keys("Dolunay13")
+        password_input.send_keys("12345")
         sleep(5)
         login_button = browser.find_element(By.XPATH, "//button[@type='submit']")
         login_button.click()
